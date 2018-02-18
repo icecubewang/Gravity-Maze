@@ -15,6 +15,8 @@ import CoreGraphics
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
+    var MyScene: MyScene?
+
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     

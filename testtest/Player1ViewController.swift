@@ -23,6 +23,8 @@ class Player1ViewController: UIViewController {
                 
                 // Present the scene
                 view.presentScene(scene)
+            } else {
+                print("scene was not myscene")
             }
             
             view.ignoresSiblingOrder = true
