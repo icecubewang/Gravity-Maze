@@ -1,5 +1,5 @@
 //
-//  Play1ViewController.swift
+//  Player1ViewController.swift
 //  testtest
 //
 //  Created by Sophie Zhao on 2/17/18.
@@ -10,14 +10,14 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class Play1ViewController: SKView {
+class Player1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            // Load the SKScene from 'MyScene.sks'
+            if let scene = SKScene(fileNamed: "MyScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 

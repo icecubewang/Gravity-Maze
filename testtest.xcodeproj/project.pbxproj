@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4B3D3552038F97D00DB705C /* Play1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3D3542038F97D00DB705C /* Play1ViewController.swift */; };
+		E49DD382203904DB007F53A2 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DD381203904DB007F53A2 /* LaunchScreen.swift */; };
+		E49DD384203909BA007F53A2 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E49DD383203909BA007F53A2 /* MyScene.sks */; };
+		E49DD38620390A19007F53A2 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DD38520390A19007F53A2 /* MyScene.swift */; };
+		E4B3D3572038FF7200DB705C /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3D3562038FF7200DB705C /* Player1ViewController.swift */; };
 		EA73F2652038D19B006978EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA73F2642038D19B006978EE /* AppDelegate.swift */; };
 		EA73F2672038D19B006978EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA73F2662038D19B006978EE /* GameScene.sks */; };
 		EA73F2692038D19B006978EE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA73F2682038D19B006978EE /* Actions.sks */; };
@@ -38,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E4B3D3542038F97D00DB705C /* Play1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play1ViewController.swift; sourceTree = "<group>"; };
+		E49DD381203904DB007F53A2 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		E49DD383203909BA007F53A2 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		E49DD38520390A19007F53A2 /* MyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		E4B3D3562038FF7200DB705C /* Player1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
 		EA73F2612038D19B006978EE /* testtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA73F2642038D19B006978EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA73F2662038D19B006978EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -107,10 +113,13 @@
 			children = (
 				EA73F2642038D19B006978EE /* AppDelegate.swift */,
 				EA73F2662038D19B006978EE /* GameScene.sks */,
+				E49DD383203909BA007F53A2 /* MyScene.sks */,
 				EA73F2682038D19B006978EE /* Actions.sks */,
 				EA73F26A2038D19B006978EE /* GameScene.swift */,
+				E49DD38520390A19007F53A2 /* MyScene.swift */,
+				E49DD381203904DB007F53A2 /* LaunchScreen.swift */,
+				E4B3D3562038FF7200DB705C /* Player1ViewController.swift */,
 				EA73F26C2038D19B006978EE /* GameViewController.swift */,
-				E4B3D3542038F97D00DB705C /* Play1ViewController.swift */,
 				EA73F26E2038D19B006978EE /* Main.storyboard */,
 				EA73F2712038D19B006978EE /* Assets.xcassets */,
 				EA73F2732038D19B006978EE /* LaunchScreen.storyboard */,
@@ -248,6 +257,7 @@
 				EA73F2672038D19B006978EE /* GameScene.sks in Resources */,
 				EA73F2722038D19B006978EE /* Assets.xcassets in Resources */,
 				EA73F2752038D19B006978EE /* LaunchScreen.storyboard in Resources */,
+				E49DD384203909BA007F53A2 /* MyScene.sks in Resources */,
 				EA73F2692038D19B006978EE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,8 +285,10 @@
 			files = (
 				EA73F26B2038D19B006978EE /* GameScene.swift in Sources */,
 				EA73F26D2038D19B006978EE /* GameViewController.swift in Sources */,
-				E4B3D3552038F97D00DB705C /* Play1ViewController.swift in Sources */,
+				E49DD38620390A19007F53A2 /* MyScene.swift in Sources */,
+				E49DD382203904DB007F53A2 /* LaunchScreen.swift in Sources */,
 				EA73F2652038D19B006978EE /* AppDelegate.swift in Sources */,
+				E4B3D3572038FF7200DB705C /* Player1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,7 @@
                                     <color key="titleColor" red="0.59691256284713745" green="0.42145320773124695" blue="0.40864107012748718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="58Y-fy-pZr" kind="show" id="eg6-Ne-Teb"/>
+                                    <segue destination="58Y-fy-pZr" kind="show" identifier="firstsegue" id="eg6-Ne-Teb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GravityMaze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU3-id-caM">
@@ -54,7 +54,7 @@
         <scene sceneID="PN6-my-XtQ">
             <objects>
                 <viewController title="Play1ViewController" id="58Y-fy-pZr" customClass="Player1ViewController" customModule="testtest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dGG-ay-Npt">
+                    <view key="view" contentMode="scaleToFill" id="dGG-ay-Npt" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
