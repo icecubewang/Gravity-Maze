@@ -63,7 +63,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Set Up!"/>
                                 <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="JSw-bj-QBU"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" identifier="SecondSegue" id="JSw-bj-QBU"/>
                                 </connections>
                             </button>
                         </subviews>
