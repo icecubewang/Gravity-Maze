@@ -15,35 +15,27 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--LaunchScreen-->
         <scene sceneID="QQp-CL-gHZ">
             <objects>
-                <viewController id="bBy-TV-i3T" sceneMemberID="viewController">
+                <viewController title="LaunchScreen" id="bBy-TV-i3T" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="701-OE-mZy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hh-ak-GEm">
-                                <rect key="frame" x="146" y="371" width="82" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjF-nQ-dcu">
+                                <rect key="frame" x="161" y="310" width="55" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="24"/>
-                                <state key="normal" title="Player2">
+                                <state key="normal" title="Play!">
                                     <color key="titleColor" red="0.59691256284713745" green="0.42145320773124695" blue="0.40864107012748718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="ihL-XT-r3y"/>
+                                    <segue destination="58Y-fy-pZr" kind="show" id="eg6-Ne-Teb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjF-nQ-dcu">
-                                <rect key="frame" x="147" y="310" width="81" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="24"/>
-                                <state key="normal" title="Player1">
-                                    <color key="titleColor" red="0.59691256284713745" green="0.42145320773124695" blue="0.40864107012748718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GravityMaze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU3-id-caM">
-                                <rect key="frame" x="88" y="187" width="198" height="35"/>
+                                <rect key="frame" x="89" y="187" width="198" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="33"/>
                                 <color key="textColor" red="0.2557445764541626" green="0.34415954351425171" blue="0.50356662273406982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,6 +50,31 @@
             </objects>
             <point key="canvasLocation" x="-828" y="129.98500749625188"/>
         </scene>
+        <!--Play1ViewController-->
+        <scene sceneID="PN6-my-XtQ">
+            <objects>
+                <viewController title="Play1ViewController" id="58Y-fy-pZr" customClass="Player1ViewController" customModule="testtest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dGG-ay-Npt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RF3-tH-727">
+                                <rect key="frame" x="155" y="553" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set Up!"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="JSw-bj-QBU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5g2-bA-HaD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRu-kc-4RP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124" y="-534.78260869565224"/>
+        </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
@@ -71,6 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="695" y="33"/>
         </scene>
     </scenes>
 </document>
