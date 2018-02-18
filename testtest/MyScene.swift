@@ -176,9 +176,6 @@ class MyScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
-    var sprites = [SKSpriteNode?](repeating:nil, count:136)
-    var countSprites = 0
-    
     //let gestureRecognizer = UIGestureRecognizer()
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -205,7 +202,12 @@ class MyScene: SKScene, SKPhysicsContactDelegate {
         let positionInScene = touch!.location(in:self)
         //        let touchedNode = block.AtPoint(positionInScene)
         let touchedNode = atPoint(positionInScene)
-        touchedNode.run(SKAction.hide())
+        if let name = touchedNode.name {
+            print(name)
+            touchedNode.run(SKAction.hide())
+            sprites[countSprites] = touchedNode
+            countSprites+=1
+        }
     }
     
 }

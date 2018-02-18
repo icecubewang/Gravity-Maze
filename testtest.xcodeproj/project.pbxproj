@@ -10,6 +10,7 @@
 		E49DD382203904DB007F53A2 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DD381203904DB007F53A2 /* LaunchScreen.swift */; };
 		E49DD384203909BA007F53A2 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E49DD383203909BA007F53A2 /* MyScene.sks */; };
 		E49DD38620390A19007F53A2 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DD38520390A19007F53A2 /* MyScene.swift */; };
+		E49DD38820393A7D007F53A2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DD38720393A7D007F53A2 /* Globals.swift */; };
 		E4B3D3572038FF7200DB705C /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3D3562038FF7200DB705C /* Player1ViewController.swift */; };
 		EA73F2652038D19B006978EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA73F2642038D19B006978EE /* AppDelegate.swift */; };
 		EA73F2672038D19B006978EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA73F2662038D19B006978EE /* GameScene.sks */; };
@@ -44,6 +45,7 @@
 		E49DD381203904DB007F53A2 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		E49DD383203909BA007F53A2 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		E49DD38520390A19007F53A2 /* MyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		E49DD38720393A7D007F53A2 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		E4B3D3562038FF7200DB705C /* Player1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
 		EA73F2612038D19B006978EE /* testtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA73F2642038D19B006978EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				EA73F2712038D19B006978EE /* Assets.xcassets */,
 				EA73F2732038D19B006978EE /* LaunchScreen.storyboard */,
 				EA73F2762038D19B006978EE /* Info.plist */,
+				E49DD38720393A7D007F53A2 /* Globals.swift */,
 			);
 			path = testtest;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				E49DD38620390A19007F53A2 /* MyScene.swift in Sources */,
 				E49DD382203904DB007F53A2 /* LaunchScreen.swift in Sources */,
 				EA73F2652038D19B006978EE /* AppDelegate.swift in Sources */,
+				E49DD38820393A7D007F53A2 /* Globals.swift in Sources */,
 				E4B3D3572038FF7200DB705C /* Player1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC63X5S9QF;
+				DEVELOPMENT_TEAM = 2H35G2TT5H;
 				INFOPLIST_FILE = testtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tony.testtest;
@@ -470,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC63X5S9QF;
+				DEVELOPMENT_TEAM = 2H35G2TT5H;
 				INFOPLIST_FILE = testtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tony.testtest;
